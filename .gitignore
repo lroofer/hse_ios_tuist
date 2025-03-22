@@ -1,0 +1,15 @@
+.idea
+.DS_Store
+
+*.pbxuser
+*xcuserdata*
+
+build/
+
+## Tuist
+PrettyButtonSDK.xcodeproj
+PrettyButtonSDK.xcworkspace
+Derived
+.build-tuist
+Tuist/.build/
+Tuist/.swiftpm/
