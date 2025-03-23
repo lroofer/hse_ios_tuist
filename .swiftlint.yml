@@ -4,7 +4,6 @@ opt_in_rules:
   - empty_count
   - explicit_init
   - force_unwrapping
-  - missing_docs
   - array_init
   - closure_end_indentation
   - closure_spacing
