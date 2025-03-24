@@ -20,7 +20,7 @@ let linterTarget: Target = .target(
 let kittyButtonTarget: Target = .target(
     name: "KittyButton",
     destinations: .iOS,
-    product: .staticFramework,
+    product: .framework,
     productName: "KittyButtonSDK",
     bundleId: "com.PrettyButtonSDK.KittyButton",
     deploymentTargets: .iOS(iOSTargetVersion),
@@ -39,8 +39,7 @@ let prettyButtonSDKSample: Target = .target(
     deploymentTargets: .iOS(iOSTargetVersion),
     infoPlist: .file(path: "PrettyButtonSDKSample/Info.plist"),
     sources: [
-        "PrettyButtonSDKSample/**/*.swift",
-        "Base.lproj"
+        "PrettyButtonSDKSample/**/*.swift"
     ],
     resources: [
         "PrettyButtonSDKSample/Assets.xcassets"
